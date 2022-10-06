@@ -20,9 +20,9 @@ spec:
         ports:
         - containerPort: 8080
         resources:
-          request:
+          limits:
             cpu: 1
             memory: 1Gi
-          limit:
+          requests:
             cpu: 1
             memory: 1Gi          
